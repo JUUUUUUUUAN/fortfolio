@@ -218,7 +218,7 @@ header .btn-hamburger .material-symbols-outlined{
   justify-content: space-evenly;
 }
 .about .about__wrapper .about__text .slogan {
-  font-style: 35px;
+  font-size: 35px;
   font-weight: bold;
 }
 .about .about__wrapper .about__text h3 {
@@ -611,15 +611,15 @@ footer .copyright {
     padding: 100px 0;
   }
 
-#modal .modal-content,
-#imageModal .modal-content {
-  width: 80%;
-}
+  #modal .modal-content,
+  #imageModal .modal-content {
+    width: 80%;
+  }
 
-#imageModal .modal-body img {
-  width: 100%;
+  #imageModal .modal-body img {
+    width: 100%;
+  }
 }
-
 
 /* 애니메이션 정의는 맨 마지막에 */
 @keyframes flash {
