@@ -135,3 +135,18 @@ window.addEventListener('scroll', function(){
   }
   
 });
+
+// 모바일용 메뉴
+const HamburgerBtn = document.querySelector('.btn-hamburger');
+const navEl = document.querySelector('header nav');
+const ulEl = document.querySelector('header nav ul');
+
+
+HamburgerBtn.addEventListener('click', function(){
+  // console.log(HamburgerBtn);
+  navEl.classList.toggle('active');
+});
+
+ulEl.addEventListener('click', function(){
+  navEl.classList.remove('active');
+});
